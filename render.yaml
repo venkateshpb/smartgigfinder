@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: smartgigfinder
+    env: node
+    repo: https://github.com/venkateshpb/smartgigfinder
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    preDeployCommand: npm install --build-from-source sqlite3
+    envVars:
+      - key: NODE_VERSION
+        value: 18
