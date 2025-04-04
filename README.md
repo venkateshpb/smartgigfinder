@@ -23,3 +23,9 @@ A web app to find freelance gigs based on your skills, with a trends graph showi
 ## Deployment
 - Deployed on Render with a `render.yaml` configuration.
 - SQLite database (`gigs.db`) is populated during deployment.
+## UI Features
+- Modern design with gradient background and Poppins font.
+- Card-based gig listings with hover animations.
+- Responsive layout for desktop and mobile.
+- Loading spinner and error handling for better UX.
+- Skills demand trends chart with colorful bars.
