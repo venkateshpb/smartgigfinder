@@ -4,7 +4,6 @@ function fetchGigs() {
     const gigsDiv = document.getElementById('gigs');
     const loadingDiv = document.getElementById('loading');
 
-    // Show loading spinner
     gigsDiv.innerHTML = '';
     loadingDiv.style.display = 'block';
 

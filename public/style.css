@@ -144,7 +144,6 @@ footer {
     font-size: 0.9em;
 }
 
-/* Animations */
 @keyframes fadeInDown {
     from { opacity: 0; transform: translateY(-20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -155,7 +154,6 @@ footer {
     100% { transform: rotate(360deg); }
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     h1 {
         font-size: 2em;
